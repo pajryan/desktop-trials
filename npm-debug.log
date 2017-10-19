@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/desktop-trials/package.json
+5 warn package.json desktop-trials@1.0.0 No repository field.
+6 warn package.json desktop-trials@1.0.0 No README data
+7 verbose install where, deps [ '/Applications/MAMP/htdocs/desktop-trials', [ 'd3' ] ]
+8 verbose install where, peers [ '/Applications/MAMP/htdocs/desktop-trials', [] ]
+9 verbose installManyTop reading for lifecycle /Applications/MAMP/htdocs/desktop-trials/package.json
+10 info preinstall desktop-trials@1.0.0
+11 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/desktop-trials/node_modules/d3/package.json
+12 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/desktop-trials/node_modules/electron-prebuilt/package.json
+13 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/desktop-trials/package.json
+14 verbose targetResolver reading package data from /Applications/MAMP/htdocs/desktop-trials/node_modules/d3/package.json
+15 verbose targetResolver reading package data from /Applications/MAMP/htdocs/desktop-trials/node_modules/electron-prebuilt/package.json
+16 verbose targetResolver reading package data from /Applications/MAMP/htdocs/desktop-trials/node_modules/.bin/electron/package.json
+17 verbose already installed skipping d3@^3.5.6 /Applications/MAMP/htdocs/desktop-trials
+18 silly install resolved []
+19 info build /Applications/MAMP/htdocs/desktop-trials
+20 info linkStuff desktop-trials@1.0.0
+21 silly linkStuff desktop-trials@1.0.0 has /Applications/MAMP/htdocs as its parent node_modules
+22 verbose linkBins desktop-trials@1.0.0
+23 verbose linkMans desktop-trials@1.0.0
+24 verbose rebuildBundles desktop-trials@1.0.0
+25 verbose rebuildBundles [ '.bin', 'd3', 'electron-prebuilt' ]
+26 verbose rebuild bundle /Applications/MAMP/htdocs/desktop-trials/node_modules/electron-prebuilt
+27 info build /Applications/MAMP/htdocs/desktop-trials/node_modules/electron-prebuilt
+28 info preinstall electron-prebuilt@0.36.2
+29 info linkStuff electron-prebuilt@0.36.2
+30 silly linkStuff electron-prebuilt@0.36.2 has /Applications/MAMP/htdocs/desktop-trials/node_modules as its parent node_modules
+31 verbose linkBins electron-prebuilt@0.36.2
+32 verbose link bins [ { electron: 'cli.js' },
+32 verbose link bins   '/Applications/MAMP/htdocs/desktop-trials/node_modules/.bin',
+32 verbose link bins   false ]
+33 verbose linkMans electron-prebuilt@0.36.2
+34 verbose rebuildBundles electron-prebuilt@0.36.2
+35 verbose rebuildBundles [ '.bin', 'electron-download', 'extract-zip' ]
+36 silly gentlyRm /Applications/MAMP/htdocs/desktop-trials/node_modules/.bin/electron is being purged
+37 verbose gentlyRm don't care about contents; nuking /Applications/MAMP/htdocs/desktop-trials/node_modules/.bin/electron
+38 silly vacuum-fs purging /Applications/MAMP/htdocs/desktop-trials/node_modules/.bin/electron
+39 verbose stack Error: EACCES: permission denied, unlink '/Applications/MAMP/htdocs/desktop-trials/node_modules/.bin/electron'
+39 verbose stack     at Error (native)
+40 verbose cwd /Applications/MAMP/htdocs/desktop-trials
+41 error Darwin 15.6.0
+42 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+43 error node v4.4.2
+44 error npm  v2.15.0
+45 error path /Applications/MAMP/htdocs/desktop-trials/node_modules/.bin/electron
+46 error code EACCES
+47 error errno -13
+48 error syscall unlink
+49 error Error: EACCES: permission denied, unlink '/Applications/MAMP/htdocs/desktop-trials/node_modules/.bin/electron'
+49 error     at Error (native)
+49 error  { [Error: EACCES: permission denied, unlink '/Applications/MAMP/htdocs/desktop-trials/node_modules/.bin/electron']
+49 error   errno: -13,
+49 error   code: 'EACCES',
+49 error   syscall: 'unlink',
+49 error   path: '/Applications/MAMP/htdocs/desktop-trials/node_modules/.bin/electron' }
+50 error Please try running this command again as root/Administrator.
+51 verbose exit [ -13, true ]
